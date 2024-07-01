@@ -1,4 +1,5 @@
-//program tocheck for consecutive oddclass Solution {
+//program to check for consecutive odd numbers in an array
+class Solution {
     fun threeConsecutiveOdds(arr: IntArray): Boolean {
         for (i in 0 until arr.size - 2) {
             if (arr[i] % 2 != 0 && arr[i + 1] % 2 != 0 && arr[i + 2] % 2 != 0) {

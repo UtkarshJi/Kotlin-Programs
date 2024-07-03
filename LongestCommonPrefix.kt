@@ -1,3 +1,4 @@
+//[rpgram
 class Solution {
     fun longestCommonPrefix(strs: Array<String>): String {
         if (strs.isEmpty()) return ""

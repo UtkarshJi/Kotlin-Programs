@@ -1,4 +1,4 @@
-//program to find
+//program to find Longest Common Prefix
 class Solution {
     fun longestCommonPrefix(strs: Array<String>): String {
         if (strs.isEmpty()) return ""

@@ -1,4 +1,4 @@
-//Kotlin program to find the Longest Common Prefix
+//Kotlin program to find the Longest Common Prefix1
 class Solution {
     fun longestCommonPrefix(strs: Array<String>): String {
         if (strs.isEmpty()) return ""
